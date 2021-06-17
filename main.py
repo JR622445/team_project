@@ -29,8 +29,8 @@ myList = ['Kebab Halal Pizza', 'Star Biryani', 'Al-Karam Sweets', 'Apna Farm', "
 #Joshua
 newInput = str(input())
 
-while newInput != '1' and newInput != '2' and newInput != '3' and newInput != 'Exit':
-  print('Invalid number typed. Please type a number between 1 and 3.')
+while newInput != '1' and newInput != '2' and newInput != '3' and newInput != '4' and newInput != 'Exit':
+  print('Invalid number typed. Please type a number between 1 and 4.')
   newInput = str(input())
 
 if newInput == '1':
@@ -137,7 +137,11 @@ elif newInput == '3':
 elif newInput == '4':
   print('Add a business to the list and press enter.')
   newInputFive = str(input())
+  print('Please add a description for this business.')
+  newInputSix = str(input())
+  print(newInputFive + ' - ' + newInputSix)
+  
+  #append this input to a list the to "myList"
 
 elif newInput == 'Exit':
   print()
-
