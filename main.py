@@ -26,7 +26,7 @@ print('Welcome to our program. We hope that it will be very helpful in finding M
 print('''To exit the program now, please type 'Exit'.\n''')
 myList = ['Kebab Halal Pizza', 'Star Biryani', 'Al-Karam Sweets', 'Apna Farm', "Shabi's", 'Tun Travel', 'Wild Fish', 'Autorebex', 'Wealth Managment', 'Immigration', 'NageenabyNaureen', 'Mann Layers', 'Gazelle Media', 'Graphic Design', 'Quran Program', 'Children Clothing', 'Halal Commerce', 'Wave Fitness', 'Think Travel', 'EleganceBeard', 'Dignitii']
 
-#Joshua
+#Joshua: lines 30-38
 newInput = str(input())
 
 while newInput != '1' and newInput != '2' and newInput != '3' and newInput != '4' and newInput != 'Exit':
@@ -38,7 +38,7 @@ if newInput == '1':
   newInputTwo = str(input())
 
 
-#Kianoush
+#Kianoush: lines 42-78
 elif newInput == '2':
   print('Please type any of the following categories to see its businesses.')
   print('Food\nStore\nTransportation\nMedia\nOther ')
@@ -78,7 +78,7 @@ elif newInput == '2':
       print(other[i])    
       
 
-#Joshua
+#Joshua: lines 82-150
 elif newInput == '3':
   print('Please search one of the businesses to view more information about it.\n')
   for i in range(0, len(myList), 1):
@@ -140,8 +140,14 @@ elif newInput == '4':
   print('Please add a description for this business.')
   newInputSix = str(input())
   print(newInputFive + ' - ' + newInputSix)
-  
-  #append this input to a list the to "myList"
+  stringList = []
+  stringList.append(newInputFive)
+  mergedList = myList + stringList
+  print("\nHere's you updated list:\n")
+  mergedList.sort()
+  for item in mergedList:
+    print(item)
+
 
 elif newInput == 'Exit':
-  print()
+  print('Thank you for using our program.')
