@@ -1,4 +1,4 @@
-# research of businesses were evenly split
+# Made by Joshua and Kianoush      research of businesses were evenly split
 KebabHalalPizza = 'A pizza restaurant located at 2371 Weston Road, Toronto, ON and own an average of 4.5/5 stars. They sell pizza, wings and other delicious side like onion rings, Tandoori chicken legs and poutine.' #toronto #food
 StarBiryani = 'A Biryani-based restaurant that offers many Vegetarian friendly meals but also many beef centered meals. Located at 3216 Eglinton Ave E, Toronto and has a 4.3 rating on Uber Eats.' #toronto food
 AlKaramSweets = 'A dessert shop located at 3001 Markham Road, Unit 15 that sells syrup sweets, assorted sweets and other snacks.' #toronto food 
